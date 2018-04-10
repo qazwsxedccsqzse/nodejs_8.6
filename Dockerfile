@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM phusion/baseimage
 MAINTAINER neil "qazwsxedccsqzse@gmail.com"
 RUN apt-get update
 RUN apt-get install -y curl && apt-get install -y sudo
